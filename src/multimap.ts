@@ -1,3 +1,4 @@
+// source: https://github.com/hotwired/stimulus/blob/main/src/multimap/multimap.ts
 import { add, del } from './set-operations.ts'
 
 /**

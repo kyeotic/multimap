@@ -1,3 +1,5 @@
+// Source: https://github.com/hotwired/stimulus/blob/main/src/multimap/set_operations.ts
+
 export function add<K, V>(map: Map<K, Set<V>>, key: K, value: V) {
   fetch(map, key).add(value)
 }
