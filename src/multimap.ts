@@ -4,7 +4,7 @@ import { add, del } from './set-operations.ts'
 /**
  * Maps keys to a set of values
  */
-export class Multimap<K, V> {
+export class MultiMap<K, V> {
   private valuesByKey: Map<K, Set<V>>
 
   constructor() {

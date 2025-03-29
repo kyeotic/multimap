@@ -1,6 +1,6 @@
 // Source: https://github.com/hotwired/stimulus/blob/main/src/multimap/indexed_multimap.ts
 
-import { Multimap } from './multimap.ts'
+import { MultiMap } from './multimap.ts'
 import { add, del } from './set-operations.ts'
 
 /**
@@ -9,7 +9,7 @@ import { add, del } from './set-operations.ts'
  * Additionally indexes keys by value, improving the performance of `getByValue`
  * at the cost of additional memory
  */
-export class IndexedMultimap<K, V> extends Multimap<K, V> {
+export class IndexedMultiMap<K, V> extends MultiMap<K, V> {
   private keysByValue: Map<V, Set<K>>
 
   constructor() {

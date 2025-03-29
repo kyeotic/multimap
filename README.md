@@ -1,11 +1,11 @@
 # @kyeotic/multimap
 
-Provides a `Multimap` and `IndexedMultimap` for Mapping keys that contain multiple values
+Provides a `MultiMap` and `IndexedMultiMap` for Mapping keys that contain multiple values
 
 ```ts
-import { Multimap } from '@kyeotic/multimap'
+import { MultiMap } from '@kyeotic/multimap'
 
-const multi = new Multimap<string, string>()
+const multi = new MultiMap<string, string>()
 
 multi.add('first', 'a')
 multi.add('first', 'b')
