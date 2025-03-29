@@ -1,0 +1,12 @@
+{
+  "name": "@kyeotic/template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "tasks": {
+    "check": "deno publish --dry-run"
+  },
+  "imports": {},
+  "exports": {
+    ".": "./src/mod.ts"
+  }
+}
